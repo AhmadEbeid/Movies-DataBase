@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group_one">
+    <item android:title="Sorting">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/most_popular"
+                    android:title="Most Popular"
+                    android:checked="true"/>
+                <item
+                    android:id="@+id/top_rated"
+                    android:title="Top Rated"/>
+                <item
+                    android:title="Favourite"
+                    android:id="@+id/favourite" />
+            </group>
+        </menu>
+    </item>
+    </group>
+</menu>
